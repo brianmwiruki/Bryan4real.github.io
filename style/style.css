@@ -131,9 +131,24 @@ body{
   font-size: 30px;
   font-family:sans-serif;
 }
-
-
-
+.skill{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  float: right;
+}
+.cont{
+  position: absolute;
+  font-size: 30px;
+  font-family: 'Anton', sans-serif;
+  color: #fff;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+.cont li{
+  text-decoration: none;
+  list-style-type: none;
+}
 .change-bg{
   width:550px;
   height: 540px;
