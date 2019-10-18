@@ -112,18 +112,23 @@ body{
 }
 /* about info */
 .profile{
-  background: url('profile.png');
-  border-radius: 90px;
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 100px;
 }
 .about-info{
-  position: absolute;
-  top: 35%;
-  left: 50%;
+  float: right;
+  width: 45%;
+  height: 100px;
+  margin-top: 18%;
+
   transform: translate(-50%,-50%);
 }
 .about-info p{
+
   color: #fff;
-  font-size: 20px;
+  font-size: 30px;
+  font-family:sans-serif;
 }
 
 
