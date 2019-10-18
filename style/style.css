@@ -111,6 +111,12 @@ body{
 	color: #000;
 }
 /* about info */
+.about-info{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
 .about-info p{
   color: #fff;
   font-size: 20px;
