@@ -111,6 +111,10 @@ body{
 	color: #000;
 }
 /* about info */
+.profile{
+  background: url('profile.png');
+  border-radius: 90px;
+}
 .about-info{
   position: absolute;
   top: 35%;
