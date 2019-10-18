@@ -1,0 +1,134 @@
+body{
+  font-family: 'PT sans' ,sans-serif;
+  background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)), url('../bg.jpg');
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  max-width: 1200px;
+	margin: auto;
+}
+/*menu bar */
+#menu{
+
+  width: 35px;
+  height: 30px;
+  margin: 30px 0px 20px 20px;
+  cursor: pointer;
+}
+.bar{
+  height: 5px;
+  width: 100%;
+  background-color: #b81568;
+  display: block;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+#bar1{
+  transform: translateY(-4px);
+}
+#bar3{
+  transform: translateY(4px);
+}
+.nav li a{
+  color: #fff;
+  text-decoration: none;
+}
+.nav li a:hover{
+  font-weight: bold;
+}
+.nav li{
+  list-style: none;
+  padding: 16px 0px;
+}
+.nav{
+  padding: 0;
+  margin: 0 20px;
+  transition: 0.3s ease;
+  display: none;
+}
+.menu-bg, #menu-bar{
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.menu-bg{
+  z-index: 1;
+  width: 0;
+  height: 0;
+  background: radial-gradient(circle,#e94498,#b81568);
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+#menu-bar{
+  z-index: 2;
+}
+/*logo*/
+.logo img{
+		float:left;
+		width: 250px;
+		height: auto;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+/*intro text */
+.intro-title{
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.intro-title h2{
+	color: #fff;
+	font-size: 40px;
+}
+.intro{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+}
+.intro p{
+  color: #fff;
+  font-size: 20px;
+}
+.button{
+	position: absolute;
+  margin-top: 10px;
+	top: 80%;
+	left: 50%;
+  transform: translate(-50%,-50%);
+}
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 70px;
+	color: #fff;
+	text-decoration: none;
+	transition:0.6s ease;
+}
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+
+.change-bg{
+  width:550px;
+  height: 540px;
+  transform: translate(-60%,-30%);
+}
+.change .bar{
+  background-color: white;
+}
+.change #bar1{
+  transform: translateY(4px) rotateZ(-45deg);
+}
+.change #bar3{
+  transform: translateY(-6px) rotate(45deg);
+}
+.change #bar2{
+  opacity: 0;
+}
+.change{
+  display: block;
+}
