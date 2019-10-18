@@ -110,6 +110,11 @@ body{
 	background-color: #fff;
 	color: #000;
 }
+/* about info */
+.about-info p{
+  color: #fff;
+  font-size: 20px;
+}
 
 
 .change-bg{
