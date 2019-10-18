@@ -114,7 +114,8 @@ body{
 .profile{
   position: absolute;
   margin-top: 15%;
-  margin-left: 100px;
+  margin-left: 10%;
+  margin-right: 10px;
 }
 .about-info{
   float: right;
@@ -130,6 +131,7 @@ body{
   font-size: 30px;
   font-family:sans-serif;
 }
+
 
 
 .change-bg{
