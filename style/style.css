@@ -113,9 +113,12 @@ body{
 /* about info */
 .profile{
   position: absolute;
-  margin-top: 15%;
+  margin-top: 12%;
   margin-left: 10%;
   margin-right: 10px;
+}
+.profile img{
+  border-radius: 150px;
 }
 .about-info{
   float: right;
